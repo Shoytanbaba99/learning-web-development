@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Project 2: The Modal</h1>
+<button id="openBtn">Open Secret Message</button>
+
+<div id="myModal" class="modal-overlay">
+    <div class="modal-box">
+        <h2>Secret Message</h2>
+        <p>You have successfully manipulated the DOM!</p>
+        <button id="closeBtn">Close X</button>
+    </div>
+</div>
+
+<style>
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+    .modal-box {
+        background: white;
+        width: 300px;
+        margin: 100px auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        color: black;
+    }
+</style>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
