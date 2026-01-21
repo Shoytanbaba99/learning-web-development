@@ -1,6 +1,6 @@
 # Learning Web Development
 
-A structured collection of JavaScript projects and exercises, organized by daily learning topics. This repository documents a journey from the basics of variables to advanced DOM manipulation and modern syntax.
+A collection of my JavaScript exercises and projects, organized by topic. I'm keeping this here to document my progress and so I can look back at it later.
 
 ## 📂 Repository Structure
 
