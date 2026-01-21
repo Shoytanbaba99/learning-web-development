@@ -41,5 +41,5 @@ A structured collection of JavaScript projects and exercises, organized by daily
 
 ## 👤 Author
 
-*   **GitHub:** [Your Username]
-*   **Name:** [Your Name]
+*   **GitHub:** [Monotheist0](https://github.com/Monotheist0)
+*   **Name:** Md Masud Ur Rahman
