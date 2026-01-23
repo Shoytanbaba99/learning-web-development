@@ -4,6 +4,8 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 
 ## 📂 Repository Structure
 
+### JavaScript
+
 ### [Day 1: Variables](./JavaScript/01-variables)
 *   **Focus:** Introduction to JavaScript variables, data types, and basic output.
 *   **Projects:** Personal Info, Simple Calculator, Temp Converter, Age Calculator, String Magic.
@@ -32,12 +34,29 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Fetch API, Async/Await, Destructuring, Spread Operator.
 *   **Projects:** Dog Fetcher, User Generator, Live Feed, GitHub Finder, Auto-Save Notepad, Destructuring/Spread/Ternary.
 
+### React
+
+### [Day 1: Basics](./React/react-basics/src/components/day01)
+*   **Focus:** Components, Props, and TypeScript Interfaces.
+*   **Projects:** UserCard.
+
+### [Day 2: State & Inputs](./React/react-basics/src/components/day02)
+*   **Focus:** `useState`, Forms, and Lists.
+*   **Projects:** Counter, Profile Editor, Signup Form, Todo List.
+
 ## 🚀 How to Use
 
+### JavaScript Projects
 1.  Clone the repository.
-2.  Navigate to a specific day/project folder.
+2.  Navigate to a specific day/project folder inside `JavaScript/`.
 3.  Open `index.html` in your browser to see the project in action.
 4.  Check `script.js` to understand the logic.
+
+### React Projects
+1.  Navigate to the React project folder: `cd React/react-basics`
+2.  Install dependencies: `npm install`
+3.  Start the development server: `npm run dev`
+4.  Open the link provided in the terminal (usually `http://localhost:5173`).
 
 ## 👤 Author
 
