@@ -44,6 +44,10 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** `useState`, Forms, and Lists.
 *   **Projects:** Counter, Profile Editor, Signup Form, Todo List.
 
+### [Day 3: Side Effects & Fetching](./React/react-basics/src/components/day03)
+*   **Focus:** `useEffect`, Side effects, and Data Fetching.
+*   **Projects:** Effect Demo, User Directory.
+
 ## 🚀 How to Use
 
 ### JavaScript Projects
