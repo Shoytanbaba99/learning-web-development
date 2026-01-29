@@ -56,6 +56,14 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Building a mini-app (SimpleSocial) to practice React basics.
 *   **Projects:** Main Dashboard, Post Card.
 
+### [Day 6: Responsive Grid & Styling](./React/react-basics/src/components/day06)
+*   **Focus:** Tailwind CSS v4, Responsive Grid Layouts.
+*   **Projects:** User Grid (Responsive).
+
+### [Day 7: Final Dashboard](./React/react-basics/src/components/day07)
+*   **Focus:** Consolidating concepts, Blog structure.
+*   **Projects:** Final Dashboard (Blog Layout).
+
 ## 🚀 How to Use
 
 ### JavaScript Projects
