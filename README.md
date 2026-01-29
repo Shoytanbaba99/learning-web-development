@@ -64,6 +64,10 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Consolidating concepts, Blog structure.
 *   **Projects:** Final Dashboard (Blog Layout).
 
+### [Day 8: T3 Stack & Database](./React/t3-app)
+*   **Focus:** Full-stack React with Next.js, tRPC, Prisma, and Tailwind.
+*   **Projects:** T3 Post Creator.
+
 ## 🚀 How to Use
 
 ### JavaScript Projects
