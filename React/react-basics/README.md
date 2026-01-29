@@ -1,9 +1,40 @@
-# React + TypeScript + Vite
+# React Learning Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My progress learning React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## Daily Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Day 1: Components & Props
+- Created a `UserCard` component.
+- Learned about TypeScript interfaces for props.
 
+### Day 2: State Management (useState)
+- Built a `Counter`, `ProfileEditor`, `SignupForm`, and `Todo` list.
+- Learned how to handle state changes and user input.
+
+### Day 3: Side Effects (useEffect)
+- Built `UserList` fetching data from an API.
+- Explored `useEffect` for data fetching and lifecycle management.
+
+### Day 4: Forms & Validation
+- Created `RegisterForm` and `ValidatedForm`.
+- Mastered complex form handling and validation logic.
+
+### Day 5: SimpleSocial Project
+- Built `MainDashboard` and `PostCard`.
+- Combined state, effects, and props to create a social media feed.
+
+### Day 6: Responsive Grid & Styling
+- Migrated to Tailwind CSS v4.
+- Implemented a responsive grid layout for the dashboard.
+- Refactored `MainDashboard` for better mobile responsiveness.
+
+---
+
+## Setup
+
+This project uses [Vite](https://vitejs.dev/) + [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/).
+
+### Commands
+- `npm run dev`: Start development server
+- `npm run build`: Build for production
