@@ -29,6 +29,10 @@ My progress learning React, TypeScript, and Vite.
 - Implemented a responsive grid layout for the dashboard.
 - Refactored `MainDashboard` for better mobile responsiveness.
 
+### Day 7: Final Dashboard (Blog)
+- Built `FinalDashboard`, a basic blog website structure.
+- Consolidated state management, effects, and responsive design.
+
 ---
 
 ## Setup

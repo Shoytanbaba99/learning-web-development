@@ -135,12 +135,23 @@
 // }
 // export default App;
 
-import UserGrid from "./components/day06/UserGrid";
+// import UserGrid from "./components/day06/UserGrid";
+
+// function App() {
+//     return (
+//         <div>
+//             <UserGrid></UserGrid>
+//         </div>
+//     );
+// }
+// export default App;
+
+import FinalDashboard from "./components/day07/FinalDashboard";
 
 function App() {
     return (
         <div>
-            <UserGrid></UserGrid>
+            <FinalDashboard></FinalDashboard>
         </div>
     );
 }
