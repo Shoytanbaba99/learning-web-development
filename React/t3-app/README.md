@@ -1,29 +1,39 @@
-# Create T3 App
+# T3 Post Feed (Day 9 Project)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This project is a Full CRUD (Create, Read, Update, Delete) application built with the [T3 Stack](https://create.t3.gg/). It demonstrates how to use Next.js, tRPC, Prisma, and Tailwind CSS together to build a functional web app.
 
-## What's next? How do I make an app with this?
+**Live Demo:** [https://learning-web-development-kappa.vercel.app/](https://learning-web-development-kappa.vercel.app/)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Features
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+-   **Create Posts:** Users can add new posts to the feed.
+-   **Read Posts:** Displays a real-time list of posts ordered by creation date.
+-   **Update Posts:** Toggle the "completed" status of a post.
+-   **Delete Posts:** Remove posts from the database.
+-   **Database:** Uses PostgreSQL (via Prisma) to persist data.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Tech Stack
 
-## Learn More
+-   [Next.js](https://nextjs.org)
+-   [tRPC](https://trpc.io)
+-   [Prisma](https://prisma.io)
+-   [Tailwind CSS](https://tailwindcss.com)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Getting Started
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+2.  **Set up the database:**
+    Make sure you have a valid `DATABASE_URL` in your `.env` file (see `.env.example`).
+    ```bash
+    npx prisma db push
+    ```
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser.

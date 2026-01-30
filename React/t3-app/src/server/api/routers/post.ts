@@ -21,6 +21,41 @@ export const postRouter = createTRPCRouter({
       });
     }),
 
+  getAll: publicProcedure.query(async ({ ctx }) => {
+    return ctx.db.post.findMany({ orderBy: { createdAt: "desc" } });
+  }),
+
+  delete: publicProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ ctx, input }) => {
+      return ctx.db.post.delete({
+        where: {
+          id: input.id,
+        },
+      });
+    }),
+
+  toggle: publicProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ ctx, input }) => {
+      const post = await ctx.db.post.findUnique({
+        where: { id: input.id },
+      });
+
+      if (!post) {
+        throw new Error("Post not found");
+      }
+
+      return ctx.db.post.update({
+        where: {
+          id: input.id,
+        },
+        data: {
+          completed: !post.completed,
+        },
+      });
+    }),
+
   getLatest: publicProcedure.query(async ({ ctx }) => {
     const post = await ctx.db.post.findFirst({
       orderBy: { createdAt: "desc" },

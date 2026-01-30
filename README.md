@@ -68,6 +68,10 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Full-stack React with Next.js, tRPC, Prisma, and Tailwind.
 *   **Projects:** T3 Post Creator.
 
+### [Day 9: Full CRUD](./React/t3-app)
+*   **Focus:** Implementing Full CRUD (Create, Read, Update, Delete) with tRPC and Prisma.
+*   **Projects:** Enhanced T3 Post Feed. ([Live Demo](https://learning-web-development-kappa.vercel.app/))
+
 ## 🚀 How to Use
 
 ### JavaScript Projects

@@ -14,6 +14,7 @@ model Post {
     name      String
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    completed Boolean @default(false)
 
     @@index([name])
 }
