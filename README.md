@@ -64,17 +64,7 @@ A collection of my JavaScript exercises and projects, organized by topic. I'm ke
 *   **Focus:** Consolidating concepts, Blog structure.
 *   **Projects:** Final Dashboard (Blog Layout).
 
-### [Day 8: T3 Stack & Database](./React/t3-app)
-*   **Focus:** Full-stack React with Next.js, tRPC, Prisma, and Tailwind.
-*   **Projects:** T3 Post Creator.
 
-### [Day 9: Full CRUD](./React/t3-app)
-*   **Focus:** Implementing Full CRUD (Create, Read, Update, Delete) with tRPC and Prisma.
-*   **Projects:** Enhanced T3 Post Feed. ([Live Demo](https://learning-web-development-kappa.vercel.app/))
-
-### [Day 10: Authentication & Protected Routes](./React/t3-app)
-*   **Focus:** NextAuth.js integration, Discord OAuth, and protected tRPC procedures.
-*   **Projects:** T3 App with Auth.
 
 ## 🚀 How to Use
 
