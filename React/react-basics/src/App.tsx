@@ -191,26 +191,62 @@
 
 // ----------------- Population Graph ---------------------
 
-import PopulationGraph from './components/day08/PopulationData/PopulationGraph';
+// import PopulationGraph from './components/day08/PopulationData/PopulationGraph';
 
-const tenHighestPopulation = [
-  { country: 'World', population: 7693165599 },
-  { country: 'China', population: 1377422166 },
-  { country: 'India', population: 1295210000 },
-  { country: 'USA', population: 323947000 },
-  { country: 'Indonesia', population: 258705000 },
-  { country: 'Brazil', population: 206135893 },
-  { country: 'Pakistan', population: 194125062 },
-  { country: 'Nigeria', population: 186988000 },
-  { country: 'Bangladesh', population: 161006790 },
-  { country: 'Russia', population: 146599183 },
-  { country: 'Japan', population: 126960000 },
-];
+// const tenHighestPopulation = [
+//   { country: 'World', population: 7693165599 },
+//   { country: 'China', population: 1377422166 },
+//   { country: 'India', population: 1295210000 },
+//   { country: 'USA', population: 323947000 },
+//   { country: 'Indonesia', population: 258705000 },
+//   { country: 'Brazil', population: 206135893 },
+//   { country: 'Pakistan', population: 194125062 },
+//   { country: 'Nigeria', population: 186988000 },
+//   { country: 'Bangladesh', population: 161006790 },
+//   { country: 'Russia', population: 146599183 },
+//   { country: 'Japan', population: 126960000 },
+// ];
+
+// const App = () => {
+//   return (
+//     <div className="flex min-h-screen items-center justify-center bg-gray-50">
+//       <PopulationGraph data={tenHighestPopulation} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// ----------------- Season changer ---------------------
+
+// import SeasonBackgroundChanger from './components/day09/SeasonBackgroundChanger';
+// const App = () => {
+//   return (
+//     <div className="">
+//       <SeasonBackgroundChanger></SeasonBackgroundChanger>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// ----------------- Cat Fetcher ---------------------
+
+import { useCat } from './components/day10/useCat';
+import { CatCard } from './components/day10/CatCard';
+import { FetchButton } from './components/day10/FetchButton';
 
 const App = () => {
+  const { catImage, isLoading, fetchCat } = useCat();
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50">
-      <PopulationGraph data={tenHighestPopulation} />
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 p-5 text-white">
+      <h1 className="mb-8 text-4xl font-bold text-blue-400">
+        The Abyssinian Generator
+      </h1>
+      <div className="flex w-full max-w-lg flex-col items-center rounded-xl bg-gray-800 p-4 shadow-2xl">
+        <CatCard image={catImage} isLoading={isLoading} />
+        <FetchButton onClick={fetchCat} />
+      </div>
     </div>
   );
 };
