@@ -1,86 +1,72 @@
-# Learning Web Development
+# 🧠 Learning Web Development: The Generation Journey
 
-A collection of my JavaScript exercises and projects, organized by topic. I'm keeping this here to document my progress and so I can look back at it later.
+Welcome to my development hub. This repository documents my transition from **Recognition** (understanding code) to **Generation** (building from scratch). It follows the **"Generation Mode Learning Contract"**—a commitment to manual typing, architectural planning (Box-Logic), and professional implementation.
 
-## 📂 Repository Structure
+---
 
-### JavaScript
+## 🧰 The Toolbox (Current Focus)
+The **Toolbox** is a professional central hub where I implement scalable, themed, and production-ready tools using the T3 stack (Next.js, Drizzle, Tailwind v4, TypeScript).
 
-### [Day 1: Variables](./JavaScript/01-variables)
-*   **Focus:** Introduction to JavaScript variables, data types, and basic output.
-*   **Projects:** Personal Info, Simple Calculator, Temp Converter, Age Calculator, String Magic.
+**🌐 Live Demo:** [learning-web-development-gx7o.vercel.app](https://learning-web-development-gx7o.vercel.app/)
 
-### [Day 2: Logic](./JavaScript/02-logic)
-*   **Focus:** Control flow, conditionals (if/else), and logical operators.
-*   **Projects:** Voting Checker, Grades, Rock Paper Scissors, BMI Calculator, Simple Quiz.
+### 🚀 Featured Tools:
+#### **Codeforces Investigation Tool**
+- **Live API Integration:** Fetches and deduplicates solved problems for any handle.
+- **Rating Graph:** Interactive normalized bar charts with elegant tooltips.
+- **Master-Detail Organization:** Grouped problem sets by rating with live filtering.
+- **The "Wires":** Clickable badges for direct submissions and real-time handle search.
 
-### [Day 3: Loops](./JavaScript/03-loops)
-*   **Focus:** Iteration using for and while loops.
-*   **Projects:** Number Printer, Math Table, Fibonacci Sequence, Prime Number Checker, Password Security.
+### 🎨 The "SepiaDog" Aesthetic
+The entire toolbox is styled with a custom Linux-inspired professional dark theme:
+- **Backgrounds:** `#0D0D0D` / `#1C1C1C`
+- **Primary Text:** `#B9986F` (Beige)
+- **Accents:** `#E6C07B` (Gold), `#B35433` (Terra Cotta)
 
-### [Day 4: Arrays and Objects](./JavaScript/04-arrays-and-objects)
-*   **Focus:** Managing collections of data.
-*   **Projects:** Fruit List, Array Magician, Todo List, Contact Book.
+---
 
-### [Day 5: Functions](./JavaScript/05-functions)
-*   **Focus:** Reusable code blocks, parameters, and return values.
-*   **Projects:** Greeter, Function Calculator, ATM Simulator.
+## 🏛️ Foundations (The Learning Archive)
 
-### [Day 6: DOM Manipulation](./JavaScript/06-dom-manipulation)
-*   **Focus:** Interacting with the webpage, event listeners, and dynamic content.
-*   **Projects:** Dark Mode, The Modal, Image Slider, Live Search.
+### [React Basics](./React/react-basics)
+Progressive learning from simple state to complex dashboards.
+- **Day 1-4:** State, Props, `useEffect`, and Form Validation.
+- **Day 5-7:** Mini-apps (SimpleSocial), Responsive Grids, and Final Dashboards.
 
-### [Day 7: API, Error Handling & Modern Syntax](./JavaScript/07-api-error-modern-syntax)
-*   **Focus:** Fetch API, Async/Await, Destructuring, Spread Operator.
-*   **Projects:** Dog Fetcher, User Generator, Live Feed, GitHub Finder, Auto-Save Notepad, Destructuring/Spread/Ternary.
+### [JavaScript Fundamentals](./JavaScript)
+The "Muscle Memory" drills organized by topic.
+- **Logic & Loops:** Conditionals, for/while iterations.
+- **Data Structures:** Arrays, Objects, and Map/Filter manipulations.
+- **Asynchronous JS:** Fetch API, Async/Await, and modern syntax (Destructuring/Spread).
 
-### React
+---
 
-### [Day 1: Basics](./React/react-basics/src/components/day01)
-*   **Focus:** Components, Props, and TypeScript Interfaces.
-*   **Projects:** UserCard.
+## 🛡️ The Learning Philosophy
+This project is guided by specific rules to kill "Tutorial Fatigue":
+1. **The Rule of 15:** 15 minutes of independent struggle before seeking hints.
+2. **Box-Logic Habit:** Planning the **Box** (Component), **Memory** (State), and **Wires** (Data Flow) before writing a single line of JSX.
+3. **Manual Override:** Strictly NO copy-pasting. Every line is manually re-typed to build muscle memory.
 
-### [Day 2: State & Inputs](./React/react-basics/src/components/day02)
-*   **Focus:** `useState`, Forms, and Lists.
-*   **Projects:** Counter, Profile Editor, Signup Form, Todo List.
+---
 
-### [Day 3: Side Effects & Fetching](./React/react-basics/src/components/day03)
-*   **Focus:** `useEffect`, Side effects, and Data Fetching.
-*   **Projects:** Effect Demo, User Directory.
+## 🚀 How to Run Locally
 
-### [Day 4: Complex Forms & Validation](./React/react-basics/src/components/day04)
-*   **Focus:** Complex Forms and Validation.
-*   **Projects:** Register Form, Validated Form.
+### 1. The Toolbox (Next.js)
+```bash
+cd React/toolbox
+npm install
+npm run dev
+```
 
-### [Day 5: SimpleSocial App](./React/react-basics/src/components/day05)
-*   **Focus:** Building a mini-app (SimpleSocial) to practice React basics.
-*   **Projects:** Main Dashboard, Post Card.
+### 2. React Basics
+```bash
+cd React/react-basics
+npm run dev
+```
 
-### [Day 6: Responsive Grid & Styling](./React/react-basics/src/components/day06)
-*   **Focus:** Tailwind CSS v4, Responsive Grid Layouts.
-*   **Projects:** User Grid (Responsive).
+### 3. JavaScript Drills
+Open the `index.html` file in any directory under `JavaScript/` directly in your browser.
 
-### [Day 7: Final Dashboard](./React/react-basics/src/components/day07)
-*   **Focus:** Consolidating concepts, Blog structure.
-*   **Projects:** Final Dashboard (Blog Layout).
-
-
-
-## 🚀 How to Use
-
-### JavaScript Projects
-1.  Clone the repository.
-2.  Navigate to a specific day/project folder inside `JavaScript/`.
-3.  Open `index.html` in your browser to see the project in action.
-4.  Check `script.js` to understand the logic.
-
-### React Projects
-1.  Navigate to the React project folder: `cd React/react-basics`
-2.  Install dependencies: `npm install`
-3.  Start the development server: `npm run dev`
-4.  Open the link provided in the terminal (usually `http://localhost:5173`).
+---
 
 ## 👤 Author
-
-*   **GitHub:** [Shoytanbaba99](https://github.com/Shoytanbaba99)
+*   **GitHub:** [Monotheist0](https://github.com/Monotheist0) (formerly Shoytanbaba99)
 *   **Name:** Md Masud Ur Rahman

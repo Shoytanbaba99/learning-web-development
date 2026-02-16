@@ -4,8 +4,13 @@ export default function Home() {
     return (
         <main className="min-h-screen bg-background relative overflow-x-hidden p-10 md:p-20 flex flex-col items-center">
             {/* Subtle Texture Background */}
-            <div className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none" 
-                 style={{ backgroundImage: 'radial-gradient(circle, var(--foreground) 1px, transparent 1px)', backgroundSize: '32px 32px' }} 
+            <div
+                className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
+                style={{
+                    backgroundImage:
+                        "radial-gradient(circle, var(--foreground) 1px, transparent 1px)",
+                    backgroundSize: "32px 32px",
+                }}
             />
 
             <header className="relative z-10 mb-24 text-center">
@@ -26,11 +31,15 @@ export default function Home() {
                             </h2>
                             <div className="space-y-4">
                                 <div className="bg-background/50 p-5 border border-border rounded-xl">
-                                    <p className="text-muted-foreground text-[9px] uppercase tracking-widest mb-2 opacity-50">Target_Handle</p>
-                                    <p className="text-primary font-mono text-lg tracking-tight">Monotheist</p>
+                                    <p className="text-muted-foreground text-[9px] uppercase tracking-widest mb-2 opacity-50">
+                                        Target_Handle
+                                    </p>
+                                    <p className="text-primary font-mono text-lg tracking-tight">
+                                        Monotheist
+                                    </p>
                                 </div>
                                 <p className="text-[11px] text-muted-foreground/70 italic leading-relaxed">
-                                    &quot;Solve more dogs. Mapping out the grid, one problem at a time.&quot;
+                                    &quot;Solve more dogs...;
                                 </p>
                             </div>
                         </InvestigationCard>

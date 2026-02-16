@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧰 The Toolbox
 
-## Getting Started
+A professional central hub for web development tools, built with the **T3 Stack** (Next.js, Drizzle, Tailwind v4, TypeScript) and following the **Generation Mode** learning philosophy.
 
-First, run the development server:
+## 🚀 Live Demo
+[learning-web-development-gx7o.vercel.app](https://learning-web-development-gx7o.vercel.app/)
+
+## 🛠️ Tech Stack
+- **Framework:** Next.js 15 (App Router)
+- **Database:** PostgreSQL (Neon) + Drizzle ORM
+- **Styling:** Tailwind CSS v4 + shadcn/ui
+- **Animation:** Magic UI / Aceternity UI
+- **Type Safety:** TypeScript + Zod (Planned)
+
+## 🎨 Design: The "SepiaDog" Theme
+A custom professional dark aesthetic designed for high focus and elegance.
+- **Background:** `#0D0D0D` (Deep Void)
+- **Primary:** `#B9986F` (Sepia Beige)
+- **Highlight:** `#E6C07B` (Antique Gold)
+- **Accent:** `#B35433` (Terra Cotta)
+
+## 📂 Active Tools
+
+### 📊 Codeforces Investigation Tool
+A powerful dashboard for competitive programmers to track their progress.
+- **Rating Distribution:** Normalized bar charts showing problem solving patterns.
+- **Problem Filtering:** Real-time search and rating-based categorization.
+- **Live Sync:** Direct connection to Codeforces API for up-to-the-minute data.
+
+### 📋 Task Master (In Progress)
+Refactoring previous database-driven task management into the Toolbox architecture.
+
+## 🧠 Learning Strategy
+This project is part of the **Generation Mode Learning Contract**. Every feature is implemented using:
+- **Box-Logic:** Architectural planning of Memory (State) and Wires (Data Flow).
+- **Manual Typing:** Zero copy-pasting to build syntax fluency.
+- **Professional Patterns:** Adhering to industry standards for folder structure and component separation.
+
+## 🚀 Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Setup environment variables (.env.local)
+# DATABASE_URL=...
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
