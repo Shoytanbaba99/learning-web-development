@@ -35,7 +35,7 @@ export default function Home() {
                                         Target_Handle
                                     </p>
                                     <p className="text-primary font-mono text-lg tracking-tight">
-                                        Monotheist
+                                        Shoytanbaba99
                                     </p>
                                 </div>
                                 <p className="text-[11px] text-muted-foreground/70 italic leading-relaxed">

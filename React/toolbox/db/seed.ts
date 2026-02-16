@@ -12,7 +12,7 @@ async function main() {
         })
         .returning();
     await db.insert(tasks).values({
-        title: "Learn Box-Logic",
+        title: "Learn Next.js",
         user_id: newUser.id,
     });
 

@@ -5,7 +5,7 @@
 //     return (
 //         <>
 //             <h1>Welcome to the App</h1>
-//             <UserCard name="Monotheist0" job="Judging" />
+//             <UserCard name="Shoytanbaba99" job="Judging" />
 //             <UserCard name="Bird" job="Flying" />
 //             <UserCard name="Vipers" job="Terrifying" />
 //         </>
