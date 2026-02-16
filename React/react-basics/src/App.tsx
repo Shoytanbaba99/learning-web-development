@@ -232,11 +232,11 @@
 
 // ----------------- Cat Fetcher ---------------------
 
-import { useCat } from './components/day10/useCat';
-import { CatCard } from './components/day10/CatCard';
-import { FetchButton } from './components/day10/FetchButton';
+ //import { useCat } from './components/day10/useCat';
+ //import { CatCard } from './components/day10/CatCard';
+ //import { FetchButton } from './components/day10/FetchButton';
 
-const App = () => {
+ //const App = () => {
   const { catImage, isLoading, fetchCat } = useCat();
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 p-5 text-white">
@@ -248,6 +248,19 @@ const App = () => {
         <FetchButton onClick={fetchCat} />
       </div>
     </div>
+  );
+};
+
+ //export default App;
+
+
+// ----------------- Day 11: Codeforce Stats ---------------------
+
+import { Day11 } from './components/day11/Day11';
+
+const App = () => {
+  return (
+    <Day11 />
   );
 };
 
