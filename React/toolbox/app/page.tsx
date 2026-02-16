@@ -18,37 +18,43 @@ export default function Home() {
             </header>
 
             <div className="relative z-10 columns-1 md:columns-2 lg:columns-3 gap-12 space-y-12 w-full max-w-7xl px-4">
-                <Link href="/codeforces" className="block max-w-sm mx-auto group">
-                    <InvestigationCard rotation="rotate-1">
-                        <h2 className="text-sm font-bold text-primary border-b border-border pb-3 mb-6 tracking-widest uppercase">
-                            Case_01: CODEFORCES
-                        </h2>
-                        <div className="space-y-4">
-                            <div className="bg-background/50 p-5 border border-border rounded-xl">
-                                <p className="text-muted-foreground text-[9px] uppercase tracking-widest mb-2 opacity-50">Target_Handle</p>
-                                <p className="text-primary font-mono text-lg tracking-tight">Monotheist</p>
+                <div className="break-inside-avoid-column">
+                    <Link href="/codeforces" className="block max-w-sm mx-auto group">
+                        <InvestigationCard rotation="rotate-1">
+                            <h2 className="text-sm font-bold text-primary border-b border-border pb-3 mb-6 tracking-widest uppercase">
+                                Case_01: CODEFORCES
+                            </h2>
+                            <div className="space-y-4">
+                                <div className="bg-background/50 p-5 border border-border rounded-xl">
+                                    <p className="text-muted-foreground text-[9px] uppercase tracking-widest mb-2 opacity-50">Target_Handle</p>
+                                    <p className="text-primary font-mono text-lg tracking-tight">Monotheist</p>
+                                </div>
+                                <p className="text-[11px] text-muted-foreground/70 italic leading-relaxed">
+                                    &quot;Solve more dogs. Mapping out the grid, one problem at a time.&quot;
+                                </p>
                             </div>
-                            <p className="text-[11px] text-muted-foreground/70 italic leading-relaxed">
-                                &quot;Mapping the architecture of problem solving. Every submission is a trace...&quot;
-                            </p>
-                        </div>
-                    </InvestigationCard>
-                </Link>
-
-                <div className="block max-w-xs mx-auto opacity-40 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-700">
-                    <InvestigationCard rotation="-rotate-1">
-                        <div className="h-48 flex flex-col items-center justify-center border-2 border-dashed border-border rounded-2xl text-muted-foreground/30">
-                            <span className="text-[10px] uppercase font-bold tracking-[0.3em]">
-                                Awaiting_Intel
-                            </span>
-                        </div>
-                    </InvestigationCard>
+                        </InvestigationCard>
+                    </Link>
                 </div>
 
-                <div className="block max-w-xs mx-auto opacity-20">
-                    <InvestigationCard rotation="rotate-3">
-                        <div className="h-32 bg-muted/10 border border-border rounded-xl" />
-                    </InvestigationCard>
+                <div className="break-inside-avoid-column">
+                    <div className="block max-w-xs mx-auto opacity-40 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-700">
+                        <InvestigationCard rotation="-rotate-1">
+                            <div className="h-48 flex flex-col items-center justify-center border-2 border-dashed border-border rounded-2xl text-muted-foreground/30">
+                                <span className="text-[10px] uppercase font-bold tracking-[0.3em]">
+                                    Awaiting_Intel
+                                </span>
+                            </div>
+                        </InvestigationCard>
+                    </div>
+                </div>
+
+                <div className="break-inside-avoid-column">
+                    <div className="block max-w-xs mx-auto opacity-20">
+                        <InvestigationCard rotation="rotate-3">
+                            <div className="h-32 bg-muted/10 border border-border rounded-xl" />
+                        </InvestigationCard>
+                    </div>
                 </div>
             </div>
         </main>
