@@ -47,6 +47,29 @@ export default function Home() {
                 </div>
 
                 <div className="break-inside-avoid-column">
+                    <Link href="/taskmaster" className="block max-w-sm mx-auto group">
+                        <InvestigationCard rotation="-rotate-1">
+                            <h2 className="text-sm font-bold text-primary border-b border-border pb-3 mb-6 tracking-widest uppercase">
+                                Case_02: TASKMASTER
+                            </h2>
+                            <div className="space-y-4">
+                                <div className="bg-background/50 p-5 border border-border rounded-xl">
+                                    <p className="text-muted-foreground text-[9px] uppercase tracking-widest mb-2 opacity-50">
+                                        Status
+                                    </p>
+                                    <p className="text-primary font-mono text-lg tracking-tight">
+                                        Active_Investigation
+                                    </p>
+                                </div>
+                                <p className="text-[11px] text-muted-foreground/70 italic leading-relaxed">
+                                    &quot;Organize the chaos.&quot;
+                                </p>
+                            </div>
+                        </InvestigationCard>
+                    </Link>
+                </div>
+
+                <div className="break-inside-avoid-column">
                     <div className="block max-w-xs mx-auto opacity-40 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-700">
                         <InvestigationCard rotation="-rotate-1">
                             <div className="h-48 flex flex-col items-center justify-center border-2 border-dashed border-border rounded-2xl text-muted-foreground/30">

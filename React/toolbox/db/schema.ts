@@ -24,3 +24,13 @@ export const tasksRelations = relations(tasks, ({ one }) => ({
         references: [users.id],
     }),
 }));
+
+export const stickies = pgTable("stickies_table", {
+    id: serial("id").primaryKey(),
+    title: text("title").notNull(),
+    content: text("content").notNull(),
+    x: integer("x").notNull(),
+    y: integer("y").notNull(),
+    color: text("color").notNull(),
+    isDone: boolean("isDone").default(false),
+});
