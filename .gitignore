@@ -52,3 +52,7 @@ Thumbs.db
 .gemini/
 gha-creds-*.json
 firebase-debug.log
+
+# SENSEI: Privacy Protocol
+*.md
+memory-bank/
