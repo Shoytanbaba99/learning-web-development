@@ -6,7 +6,7 @@ export default function AiResult({ score, total, onReset }) {
             {/* Sparkling Trophy Icon */}
             <div className="text-6xl mb-4 animate-bounce">🏆</div>
 
-            <h2 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-200 mb-2 uppercase tracking-tighter">
+            <h2 className="text-4xl font-black text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-orange-500 to-yellow-200 mb-2 uppercase tracking-tighter">
                 JACKPOT!
             </h2>
 
@@ -25,7 +25,7 @@ export default function AiResult({ score, total, onReset }) {
 
             <button
                 onClick={onReset}
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-black py-4 rounded-2xl shadow-lg shadow-blue-500/40 transition-all hover:scale-105 active:scale-95 uppercase"
+                className="w-full bg-linear-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-black py-4 rounded-2xl shadow-lg shadow-blue-500/40 transition-all hover:scale-105 active:scale-95 uppercase"
             >
                 Play Again 🔄
             </button>
