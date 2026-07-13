@@ -1,28 +1,28 @@
 export default function Navigation({ canNext, hasNext, hasPrev, handleNext, handlePrev }) {
-    return (
-        <div>
-            <div className="flex justify-between w-full mt-8">
-                {hasPrev && (
-                    <button
-                        onClick={handlePrev}
-                        className="text-gray-400 hover:text-white py-2 px-4 transition-colors"
-                    >
-                        Back
-                    </button>
-                )}
+  return (
+    <div>
+      <div className="mt-8 flex w-full justify-between">
+        {hasPrev && (
+          <button
+            onClick={handlePrev}
+            className="px-4 py-2 text-gray-400 transition-colors hover:text-white"
+          >
+            Back
+          </button>
+        )}
 
-                <button
-                    onClick={handleNext}
-                    disabled={!canNext}
-                    className={` font-semibold py-2 px-6 rounded-xl transition-colors ${
-                        canNext
-                            ? "bg-blue-500 hover:bg-blue-400 text-white"
-                            : "bg-gray-700 text-gray-500 cursor-not-allowed opacity-50"
-                    }`}
-                >
-                    {`${hasNext ? "Next" : "Finish"}`}
-                </button>
-            </div>
-        </div>
-    );
+        <button
+          onClick={handleNext}
+          disabled={!canNext}
+          className={`rounded-xl px-6 py-2 font-semibold transition-colors ${
+            canNext
+              ? "bg-blue-500 text-white hover:bg-blue-400"
+              : "cursor-not-allowed bg-gray-700 text-gray-500 opacity-50"
+          }`}
+        >
+          {`${hasNext ? "Next" : "Finish"}`}
+        </button>
+      </div>
+    </div>
+  );
 }
