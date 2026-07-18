@@ -2,6 +2,7 @@ import { useFormStatus } from "react-dom";
 import { FormState } from "./Guestbook";
 import { useActionState, useEffect, useRef } from "react";
 import { useGuestbook } from "./GuestbookContext";
+import { cn } from "../../utils/cn";
 
 function SubmitButton() {
   const { pending } = useFormStatus();
@@ -10,7 +11,12 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="w-full cursor-pointer rounded-xl bg-indigo-600 px-4 py-3 font-medium text-white shadow-lg shadow-indigo-600/10 transition-all duration-200 hover:bg-indigo-500 active:scale-[0.99] disabled:cursor-not-allowed disabled:bg-indigo-800/40 disabled:text-zinc-500"
+      className={cn(
+        "w-full cursor-pointer rounded-xl bg-indigo-600 px-4 py-3 font-medium text-white shadow-lg transition-all duration-200",
+        pending
+          ? "cursor-not-allowed bg-indigo-800/40 text-zinc-500"
+          : "shadow-indigo-600/10 hover:bg-indigo-500 active:scale-[0.99]",
+      )}
     >
       {pending ? "Submitting..." : "Sign Guestbook"}
     </button>
